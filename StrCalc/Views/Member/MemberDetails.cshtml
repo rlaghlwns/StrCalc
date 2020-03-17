@@ -1,0 +1,47 @@
+﻿@model StrCalc.Models.Member
+
+@{
+    ViewData["Title"] = "MemberDetails";
+}
+
+<h1>MemberDetails</h1>
+
+<div>
+    <h4>Member</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pw)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pw)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NickName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NickName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+</div>
+<div>
+
+    <a class="btn btn-warning" asp-controller="Member" asp-action="EditMember">기본 정보 수정</a>
+    <a class="btn btn-warning" asp-controller="Member" asp-action="PerformanceDetails">운동 능력</a>
+    <hr />
+    <a class="btn btn-warning" asp-controller="Member" asp-action="Withdraw">회원 탈퇴</a>
+
+</div>
+

@@ -1,0 +1,8 @@
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\bin\Debug\netcoreapp3.1\StrCalcLibrary.deps.json
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\bin\Debug\netcoreapp3.1\StrCalcLibrary.dll
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\bin\Debug\netcoreapp3.1\StrCalcLibrary.pdb
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\obj\Debug\netcoreapp3.1\StrCalcLibrary.AssemblyInfoInputs.cache
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\obj\Debug\netcoreapp3.1\StrCalcLibrary.AssemblyInfo.cs
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\obj\Debug\netcoreapp3.1\StrCalcLibrary.dll
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\obj\Debug\netcoreapp3.1\StrCalcLibrary.pdb
+C:\Users\ghlwn\source\repos\StrCalc\StrCalcLibrary\obj\Debug\netcoreapp3.1\StrCalcLibrary.csprojAssemblyReference.cache

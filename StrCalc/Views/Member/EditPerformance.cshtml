@@ -1,0 +1,58 @@
+﻿@model StrCalc.Models.Performance
+
+@{
+    ViewData["Title"] = "EditPerformance";
+}
+
+<h1>EditPerformance</h1>
+
+<h4>Performance</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditPerformance">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="No" />
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label><br />
+                Male&nbsp;<input type="radio" asp-for="Gender" value="Male" />&nbsp;&nbsp;
+                Female&nbsp;<input type="radio" asp-for="Gender" value="Female" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Height" class="control-label"></label>
+                <input asp-for="Height" class="form-control" />
+                <span asp-validation-for="Height" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weight" class="control-label"></label>
+                <input asp-for="Weight" class="form-control" />
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label asp-for="BP" class="control-label"></label>
+                <input asp-for="BP" class="form-control" />
+                <span asp-validation-for="BP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DL" class="control-label"></label>
+                <input asp-for="DL" class="form-control" />
+                <span asp-validation-for="DL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SQT" class="control-label"></label>
+                <input asp-for="SQT" class="form-control" />
+                <span asp-validation-for="SQT" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

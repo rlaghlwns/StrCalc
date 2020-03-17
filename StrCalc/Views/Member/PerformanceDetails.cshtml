@@ -1,0 +1,78 @@
+﻿@model StrCalc.Models.Performance
+
+@{
+    ViewData["Title"] = "PerformanceDetails";
+}
+
+<h1>PerformanceDetails</h1>
+
+<div>
+    <h4>Performance</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Member.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Member.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BP)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SQT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SQT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Big3Weight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Big3Weight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WP)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-warning" asp-controller="Member" asp-action="EditPerformance">운동 능력 수정</a>
+    <a class="btn btn-warning" asp-controller="Member" asp-action="MemberDetails">기본 정보</a>
+</div>
